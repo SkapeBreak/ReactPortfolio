@@ -1,0 +1,112 @@
+.intro {
+    font-size: 40px;
+    height: 100vh;
+    border: 1px solid black;
+    background-color: rgb(37, 61, 105);
+    color: rgb(255, 255, 255);
+}
+
+.intro__box{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+
+.intro__text {
+    margin-left: 80px;
+    margin-top: 400px;
+    margin-right: 100px;
+    opacity: 1;
+    transition: opacity 3s;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+p {
+    margin: 20;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials {
+    padding-bottom: 200px;
+    border: 10px solid black;
+}
+
+.social {
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.headshot{
+    height: 80px;
+    margin: 30px;
+    border-radius: 75px;
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: coral;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+    color: rgb(206, 51, 51);
+
+}
+
+.NavLink {
+    text-decoration: none;
+    color: rgb(218, 28, 28); 
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+}

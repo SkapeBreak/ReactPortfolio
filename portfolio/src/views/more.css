@@ -1,0 +1,28 @@
+.others {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+    background-color: rgba(202, 65, 93, 0.788);
+}
+
+/* .hobbies__container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+} */
+
+.more1 {
+    width: 600px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
+    border-left: 500px;
+}
+
+.more2{
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
+}
